@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupToolBar() {
         val toolBar = binding.toolbar2
         toolBar.background = getDrawable(R.color.purple_200)
+        toolBar.title = "Fate Stay Night"
         setSupportActionBar(toolBar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
